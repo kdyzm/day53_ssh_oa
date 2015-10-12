@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="day53_ssh_oa"
+  id="myeclipse.1444438430582"
+  context-root="/day53_ssh_oa"
+  j2ee-spec="6.0"
+  archive="day53_ssh_oa.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

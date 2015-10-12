@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class catalog="test" name="com.kdyzm.ssh.doamin.User" table="user" lazy="true">
+		<id name="uid" column="uid" length="20" type="long">
+			<generator class="increment"></generator>
+		</id>
+		<property name="name" column="name" length="32" type="string"></property>
+		<property name="age" column="age" length="11" type="integer"></property>
+	</class>
+</hibernate-mapping>
